@@ -57,7 +57,6 @@ def close_all_positions(order_type,magic=15):
     order_type_dict={
         'buy':0
         'sell':1
-
     }
 
     if mt5.positions_total()>0:

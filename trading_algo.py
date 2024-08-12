@@ -52,7 +52,6 @@ def close_position(position,symbol,deviation=20,magic=15,strategy_name='Trading 
     }
     order_result = mt5.order_send(request)
     return (order_result)
-
 def close_all_positions(order_type,magic=15):
     order_type_dict={
         'buy':0

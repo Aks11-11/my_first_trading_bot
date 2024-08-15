@@ -26,7 +26,6 @@ def markeet_order(symbol,volume,order_type,deviation=20,magic=15,stoploss=0.0,st
     }
     order_result =mt5.order_send(request)
     return(order_result)
-
 def close_position(position,symbol,deviation=20,magic=15,strategy_name='Trading BOt'):
     order_type_dict= {
         0:mt5.ORDER_TYPE_SELL,

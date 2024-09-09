@@ -1,6 +1,5 @@
 import MetaTrader5 as mt5
 import pandas as pd
-
 def markeet_order(symbol,volume,order_type,deviation=20,magic=15,stoploss=0.0,strategy_name='Trading Bot'):
     order_type_dict = {
         'buy':mt5.ORDER_TYPE_BUY,
